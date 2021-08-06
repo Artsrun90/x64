@@ -12,8 +12,10 @@ footer{
 }
 
 h5{
-  font-size: 16px;
+  font-size: 14px;
 }
+
+.container {min-width: 540px !important;}
 
 .logo-font{
   font-size: 30px;
@@ -31,6 +33,10 @@ h5{
 .under-footer p{
   font-size: 12px;
   padding: 0 10px 0 10px;
+}
+
+.menu-one{
+  display: none;
 }
 
 i:hover{
@@ -124,15 +130,47 @@ input[type=number]:focus,
    }
 
   .owl-prev {
-      left:82%;
-      top: -80px;
+      right:200px;
+      top: -50px;
    }
 
    .owl-next {
       right:140px;
-      top:-80px;
+      top:-50px;
+   }
+   .fa-search, .bar-mob {display: none;}
+
+   .social{
+
    }
 
 
-
+   @media (max-width: 1280px) {
+     .menu-one { display: block;}
+     .menu-two { display: none;}
+     .card {max-width: 200px;}
+     .akcii {max-width: 420px;}
+     .brand {max-width: 156px;}
+    }
+    @media (max-width: 960px) {
+      .card {max-width: 170px;}
+      .btn {max-width: 140px; font-size: 12px;}
+      .akcii {max-width: 380px;}
+      .brand {max-width: 120px;}
+    }
+    @media (max-width: 600px) {
+      .card {max-width: 165px;}
+      .brand {max-width: 100px;}
+      .akcii {max-width: 300px;}
+      .catalog, .form-outline, .fa-heart, .fa-chart-bar, .fa-user-circle {display: none;}
+      .fa-search, .bar-mob {display: inline;}
+    }
+    @media (max-width: 480px) {
+     .card {max-width: 246px;}
+     .akcii {max-width: 300px;}
+     .brand {max-width: 100px;}
+   }
+  @media (min-width: 960px){
+    .d-lg-block {display: block!important;}
+  }
   
