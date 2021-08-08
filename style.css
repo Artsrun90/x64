@@ -15,7 +15,6 @@ h5{
   font-size: 14px;
 }
 
-.container {min-width: 540px !important;}
 
 .logo-font{
   font-size: 30px;
@@ -140,9 +139,7 @@ input[type=number]:focus,
    }
    .fa-search, .bar-mob {display: none;}
 
-   .social{
-
-   }
+   
 
 
    @media (max-width: 1280px) {

@@ -76,4 +76,14 @@ $(document).ready(function(){
         }
     });
 
+    $('#catalog').on('click',function () {
+        if ($('#catalog').hasClass( "fa-bars" )) {
+            $('#catalog').removeClass(" fa-bars");
+            $('#catalog').addClass(" fa-times");            
+        } else {
+            $('#catalog').removeClass(" fa-times");
+            $('#catalog').addClass(" fa-bars");            
+        }
+    })
+
   });
